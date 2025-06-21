@@ -1,14 +1,22 @@
+## Stage
 ```bash
-git commit -m "Commit message"
+git add --all         # stage everything
+git add .             # stage only current directory
+
+git add filename.html # stage specific file
 ```
-- To commit all changes.
 ---
+## Commit
+```bash
+git commit -m "Commit Message"
+```
+
 >[!cite] Tone of Commit messages
 >- Present tense & Imperative.
 >- Give instructions to code (don't care 😠).
->```
->❌ "added footer to the code base"
->✅ "add footer"
+>```bash
+>❌ git commit -m "added footer to the code base"
+>✅ git commit -m "add footer"
 >```
 
 >[!info] Atomic Commits

@@ -1,10 +1,13 @@
 >[!hint] Git
->1. [[GIT - Setup]]
->2. [[GIT - Making Repo]]
->3. [[GIT - Stage]]
->4. [[GIT - Commit]]
->5. [[GIT - Branch]]
->6. [[GIT - Logs]]
+>- [[GIT - Setup]]
+>- [[GIT - Making Repo]]
+>- [[GIT - Stage & Commmit]]
+>- [[GIT - Push & Pull]]
+>---
+>- [[GIT - Branch]]
+>- [[GIT - Logs]]
 
 >[!hint] GitHub
->1. [[GitHub - SSH Setup]]
+>- [[GitHub - SSH Setup]]
+>- [[GitHub - Team Collaborative branch]]
+>- [GitHub domain guide](https://pages.github.com/)

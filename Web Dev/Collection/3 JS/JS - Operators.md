@@ -6,15 +6,19 @@
 >*    // Multiplication
 >/    // Division
 >%    // Modulus (Remainder)
->**   // Exponentiation
+>**   // Exponentiation (exmaple: 3 ** 2 = 9)
 >```
 >```js
 >// Unary Operator
 >++   // Increment (a++(post) or ++a(pre))
 >--   // Decrement (a-- or --a)
 >```
->-> Operator Precedence 
->`( )` -> `**` -> `*` `/` `%` -> `+` `-`
+>---
+>> **Operator Precedence** (Priority and Direction):
+>1. `( )`
+>2. `**`
+>3. `*` `/` `%` (`->` left to right direction, whichever comes first)
+>4. `+` `-` (`->` left to right direction, whichever comes first)
 
 >[!done] Comparison Operators
 >Used to compare two values.

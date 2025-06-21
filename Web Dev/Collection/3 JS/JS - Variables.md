@@ -31,7 +31,23 @@ let c = undefined; // ❌ (same as: let a;)
 | `Null`      | `null` (intentional) `let a = null;`        |
 | `BigInt`    | `BigInt(123)` or `123n`                     |
 | `Symbol`    | `Symbol("id")`                              |
+>[!hint] ***NaN*** a number value
+>The **NaN** global property is a value representing *"Not-a-Number"*
+>```js
+>0 / 0     // NaN
+>NaN - 1   // NaN
+>NaN * 1   // NaN
+>NaN + NaN // NaN
+>```
 
+>[!hint] Difference between `null` and `undefined`
+>```js
+>let a;             // ❌ bad practice
+>let a = undefined; // ❌ (same as above)
+>let a = null;      // ✅ good practice
+>```
+>- `null` means **intentionally** not assign the value.
+>- `undefined` no needs to assign, it automatically assigns if there is any need.
 ### 2. Non-Primitive Types
 
 - `Object`

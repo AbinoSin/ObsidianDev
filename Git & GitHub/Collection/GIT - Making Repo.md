@@ -1,12 +1,12 @@
 ```bash
-git status
+git status # Check status
 ```
 - First check is there already a REPO?
 - Because there is a small chances of being everything overwritten.
 
 ---
 ```bash
-git init
+git init # Initialize Git (only once per project)
 ```
 - This command will make that folder into REPO!
 

@@ -6,6 +6,8 @@
 >---
 >- [[GIT - Branch]]
 >- [[GIT - Logs]]
+>---
+>- [[GIT - .DS_Store]] This is a problem in my pc (You can Ignore it)
 
 >[!hint] GitHub
 >- [[GitHub - SSH Setup]]
